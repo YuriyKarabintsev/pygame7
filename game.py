@@ -146,7 +146,7 @@ player_image = load_image('mar.png', colorkey=-1)
 tile_width = tile_height = 50
 start_screen()
 
-player, level_x, level_y = generate_level(load_level("map.txt"))
+player, level_x, level_y = generate_level(load_level("1.txt"))
 camera = Camera((level_x, level_y))
 STEP = 50
 running = True
